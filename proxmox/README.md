@@ -4,7 +4,7 @@
 - running lxc containers
 - ha setup with live partition migration
 - ceph setup
-- rocking homelab server(s) 
+- rocking homelab server(s)
 
 
 ### Installation and Setup
@@ -16,7 +16,7 @@ Ideally have two nics in the system and additional storage outside of the disk p
 
 On w530 choose the en1000 device as the management network. However, if the other nic has an IP you can access the proxmox console from it
 
-Proxmox web console is located at https://<IP>:8006
+Proxmox web console is located at https://IP:8006
 
 ```
 vi /etc/apt/sources.list
